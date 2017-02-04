@@ -1,0 +1,97 @@
+active {
+  color: #ff2150;
+}
+nav {
+  margin-top: 15px;
+  width: 100%;
+  height: 60px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+nav ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0 7%;
+}
+nav ul li {
+  flex: 1;
+  height: 100%;
+  padding-top: 20px;
+}
+nav ul li a {
+  color: #999;
+}
+nav ul li:nth-child(3) div {
+  position: relative;
+}
+nav ul li:nth-child(3) div .up {
+  position: absolute;
+  left: 33px;
+  top: -6px;
+}
+nav ul li:nth-child(3) div .down {
+  position: absolute;
+  left: 33px;
+  top: 6px;
+}
+.body {
+  height: auto;
+  background-color: #f7f7f7;
+  padding-top: 17px;
+}
+.body .shops {
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+}
+.body .shops .s_header {
+  height: 104px;
+  padding: 0 3.2% ;
+  position: relative;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
+}
+.body .shops .s_header .logo {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: url(../images/shops-02_03.png) no-repeat;
+  left: 20px;
+  top: 22px;
+}
+.body .shops .s_header .s_name {
+  position: absolute;
+  left: 99px;
+  top: 27px;
+}
+.body .shops .s_header .s_name h1 {
+  font-size: 18px;
+}
+.body .shops .s_header .s_name p {
+  color: #a9a9a9;
+  margin: 10px 0;
+}
+.body .shops .s_header .intro {
+  position: absolute;
+  right: 21px;
+  top: 32px;
+  border: 1px solid #ff2150;
+  padding: 10px 7px;
+  border-radius: 5px;
+}
+.body .shops .s_header .intro a {
+  color: #ff2150;
+  font-size: 18px;
+}
+.body .shops .s_play {
+  padding: 7px 0;
+}
+.body .shops .s_play ul {
+  display: flex;
+}
+.body .shops .s_play ul li {
+  flex: 1;
+  margin: 0 3px;
+}
